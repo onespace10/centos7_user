@@ -7,6 +7,7 @@ Centos7, It support base user creation and password setting.
 Copy the sources to your docker host and build the container, and to run on windows
 
 ```
+docker build --tag daya123/centos7 ./ 
 docker run -it --rm -v C:\\Users\\home\\centos7_user:/df --name c1 -e USER=daya123 -e PASSWD=daya123 daya123/centos7
 ```
 
@@ -72,4 +73,5 @@ git push -u origin main
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 
+git push git@github.com:MY-Name/centos7_user.git
 ```

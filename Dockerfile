@@ -4,6 +4,7 @@
 # Originally written for Fedora-Dockerfiles by
 #   scollier <scollier@redhat.com>
 
+
 FROM centos:centos7
 MAINTAINER <onespace.choi@gmail.com>
 
